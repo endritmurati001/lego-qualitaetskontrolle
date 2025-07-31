@@ -1,0 +1,10 @@
+{
+    "run_name": "20250731_1501_model-efficientnet_b2_bs-32",
+    "model_name": "efficientnet_b2",
+    "batch_size": 32,
+    "total_epochs": 30,
+    "finetune_start_epoch": 15,
+    "lr_head": 5e-05,
+    "lr_finetune": 1e-06,
+    "early_stopping_patience": 5
+}

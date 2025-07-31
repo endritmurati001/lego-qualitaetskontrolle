@@ -1,0 +1,17 @@
+{
+    "run_name": "20250731_1339_model-efficientnet_b2_lr-5e-05",
+    "model_name": "efficientnet_b2",
+    "num_classes": 4,
+    "classes": [
+        "blaue_auto",
+        "blume_erwin",
+        "ente_henry",
+        "rote_auto"
+    ],
+    "batch_size": 32,
+    "image_size": 224,
+    "learning_rate": 5e-05,
+    "optimizer": "Adam",
+    "scheduler": "CosineAnnealingLR",
+    "num_epochs": 10
+}
